@@ -27,8 +27,6 @@
 
 
 
-
-
 ### `Knowlage`     :floppy_disk:
 
 |   Serveur     | Load-balancer| Protocoles| Monitoring   | firewall|
