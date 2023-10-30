@@ -33,11 +33,11 @@
 
 |   Serveur     | Load-balancer| Protocoles| Monitoring   | firewall|
 | ------------- |:------------:|:---------:|:------------:|:--------|
-|    Web server |  HAProxy     |  HTTPS    |  NewRelic    |         |
-|    DNS server |  NGINX       |  ICMP     |  Nagios      |         |
-|    Application|  mod-athena  |  FTP      |  DataDog     |         |
-|    server     |  Vernis      |  TLS      |  WaveFront   |         |   
-|    DB Server  |  LVS         |  SSL      |  Uptime Robot|         |
+|    Web server |  HAProxy     |  HTTPS    |  NewRelic    |  NAT    |
+|    DNS server |  NGINX       |  ICMP     |  Nagios      |  UTM    |
+|    Application|  mod-athena  |  FTP      |  DataDog     |  IDS    |
+|    server     |  Vernis      |  TLS      |  WaveFront   |  IPS    |   
+|    DB Server  |  LVS         |  SSL      |  Uptime Robot|  SGFW   |
 
 
 ### ` General `
